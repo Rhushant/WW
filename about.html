@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Educational Institution</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #181818;
+            color: #e0e0e0;
+        }
+
+        header {
+            background-color: #222; 
+            padding: 20px; 
+            border-bottom: 2px solid #52bec0ee; 
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            max-height: 80px;
+        }
+
+        .institution-name {
+            font-size: 2.5em;
+            color: #52bec0ee; 
+            margin-left: 15px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            color: #e0e0e0;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #52bec0ee;
+        }
+
+        .content {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: #222;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0px;
+            color: #52bec0ee;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #52bec0ee;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #d0d0d0;
+        }
+        ul {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 10px 0;
+            color: #e0e0e0;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #52bec0ee;
+            margin: 10px 0;
+            border-radius: 2px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #e0e0e0;
+            font-size: 1em;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/ww_logo-removebg-preview.png" alt="Wisdom Warrior Institute Logo" class="logo">
+            <h1 class="institution-name">Wisdom Warrior Institute</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tuition-calculator.html">Tuition Calculator</a></li>
+                <li><a href="inquiry.html">Inquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section id="about">
+            <h1>About Wisdom Warrior Institute</h1>
+        </section>
+
+        <section id="history">
+            <h2>Our History</h2>
+            <p>Founded in 1999, Wisdom Warrior has a long-standing tradition of excellence in education. Originally established to provide high-quality learning opportunities in Information Technology, we have grown into a diverse and inclusive institution committed to student success and community development.</p>
+        </section>
+
+        <section id="mission-values">
+            <h2>Mission & Core Values</h2>
+            <p>Our mission is to provide an enriching educational experience that empowers students to reach their full potential. We believe in fostering a culture of integrity, inclusivity, and lifelong learning. Our core values include:</p>
+            <ul>
+                <li><strong>Excellence:</strong> Striving for the highest standards in all aspects of learning and teaching.</li>
+                <li><strong>Integrity:</strong> Upholding honesty, transparency, and accountability in everything we do.</li>
+                <li><strong>Community:</strong> Building a supportive and inclusive environment for students, faculty, and staff.</li>
+                <li><strong>Innovation:</strong> Encouraging creativity and forward-thinking to solve today’s challenges.</li>
+            </ul>
+        </section>
+
+        <section id="faculty">
+            <h2>Our Faculty</h2>
+            <p>Our faculty members are not only experts in their respective fields but are also dedicated educators who prioritize student learning and engagement. With a wealth of experience in academia and industry, our instructors bring a unique blend of practical knowledge and research expertise to the classroom.</p>
+            <p>Meet some of our distinguished faculty members:</p>
+            <ul>
+                <li>Dr. Sarah Thompson, Professor of Computer Science - Expert in Artificial Intelligence and Machine Learning</li>
+                <li>Dr. James Patel, Professor of Business Administration - Published author and industry leader in Strategic Management</li>
+                <li>Prof. Emily Chen, Lecturer in Psychology - Known for innovative teaching methods and student engagement</li>
+            </ul>
+        </section>
+
+        <section id="facilities">
+            <h2>Our Facilities</h2>
+            <p>Wisdom Warrior offers a wide range of state-of-the-art facilities to support student learning and well-being. From modern classrooms and laboratories to recreational centers and libraries, we provide a well-rounded environment that fosters growth both academically and personally.</p>
+            <ul>
+                <li>Advanced computer labs equipped with the latest software and technology</li>
+                <li>A library with extensive academic resources and study spaces</li>
+                <li>On-campus housing and dining options for a comfortable living experience</li>
+                <li>Sports and fitness centers to promote a healthy lifestyle</li>
+                <li>Dedicated student support services, including counseling and career guidance</li>
+            </ul>
+        </section>
+
+        <section id="accreditation">
+            <h2>Accreditation & Achievements</h2>
+            <p>Wisdom Warrior is fully accredited and has received numerous accolades for excellence in education, innovation, and community service. We pride ourselves on providing a well-rounded educational experience that prepares students for success in a rapidly changing world.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Wisdom Warrior Institute. All rights reserved.</p>
+    </footer>
+</body>
+</html>
